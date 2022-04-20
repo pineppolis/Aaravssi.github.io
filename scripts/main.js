@@ -19,4 +19,7 @@ function maths(num1, num2){ // The variables that will be later defined while fu
 const answer = maths(1,2); // Declaring a variable containing the values of the function and its answer
 const answering = document.querySelector('#Answer') // Connecting the constant answering to the id #Answer
 answering.textContent = answer; // Filling the answer in the .textcontent
-var a = !(12>14)? (window.open()): alert('The operation was brought to a halt')
+function openwindow ({
+    window.open();
+})
+var a = !(12>14)? openwindow : alert('The operation was brought to a halt');
