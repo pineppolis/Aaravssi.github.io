@@ -9,7 +9,7 @@ cpic.onclick = () =>{
     if (src=== '/images/picture1-.png'){
     cpic.setAttribute('src', '/images/picture2-.png');
     } else {
-    cpic.setAttribute('src', '/images/picture1-png'); }
+    cpic.setAttribute('src', '/images/picture1-.png'); }
     }
 /*setTimeout(() => {
     if(1+3%2===0){ // BODMAS applies
