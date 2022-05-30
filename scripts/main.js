@@ -2,14 +2,24 @@
 myheading.textContent ="Hello World!"; // Attaching a new value to the text context of myheading, a constant
 let Wow = "Tales Of the Farlands!"; // A new value proving for it can later be changed, the command is under a comment because it serves no purpose and has a better alternative*
 myheading.textContent = Wow;*/ // It works!
-document.querySelector('h1').textContent = "Tales Of The Farlands!"; // Works, selecting the function then adding a dot in between to tell what to add
 let cpic = document.querySelector('#c-pic');
+function ccolor(clr) {
+    let h1 = document.querySelector('h1');
+    let color = document.getElementById("butt").style.borderColor=clr;
+    return color;
+}
+
+document.querySelector('h1').textContent = "Tales Of The Farlands!"; // Works, selecting the function then adding a dot in between to tell what to add
 cpic.onclick = () =>{
     let src = cpic.getAttribute('src');
+    
     if (src=== '/images/picture1-.png'){
-    cpic.setAttribute('src', '/images/picture2-.png');
+        cpic.setAttribute('src', '/images/picture2-.png');
+        ccolor("pink");
     } else {
-    cpic.setAttribute('src', '/images/picture1-.png'); }
+        cpic.setAttribute('src', '/images/picture1-.png');
+        ccolor("blue");
+        }
     }
 /*setTimeout(() => {
     if(1+3%2===0){ // BODMAS applies

@@ -77,4 +77,18 @@ article > p:hover{
         padding-bottom: 10%;
     }
 }
+#c-pic {
+    padding: 0px;
+    padding-top: 0px;
+}
+#butt {
+   padding-left: 22%; 
+   padding-right: 22%;
+   padding-top: 0px;
+   background-color: black;
+   border-color: darkslateblue;
+   color: darkslateblue;
+   font-size: smaller;
+   font-stretch: ultra-expanded;
+}
 
